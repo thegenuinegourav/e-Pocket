@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/Online_shopping"
+            android:title="Online Shopping"
+            android:icon="@drawable/ic_shopping_cart_24dp"/>
+        <item
+            android:id="@+id/Analytics"
+            android:title="Data Analytics"
+            android:icon="@drawable/ic_poll_24dp"/>
+        <item
+            android:id="@+id/scan"
+            android:title="Scan QR"
+            android:icon="@drawable/ic_center_focus_weak_24dp"
+            />
+        <item
+            android:id="@+id/reminder"
+            android:title="Set Reminder"
+            android:icon="@drawable/ic_alarm_24dp"/>
+        <item
+            android:title="Voice Amount"
+            android:id="@+id/addwithvoice"
+            android:icon="@drawable/ic_mic_none_24dp"/>
+        <item
+            android:id="@+id/share"
+            android:icon="@drawable/ic_menu_share"
+            android:title="Share"
+            />
+
+    </group>
+
+
+
+
+</menu>

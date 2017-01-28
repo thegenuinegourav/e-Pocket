@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.doomers.hackpaytm">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <!-- Camera ! -->
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.CAMERA_EXTENDED" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.hardware.camera.autofocus" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".HomeActivity"
+            android:label="@string/title_activity_home"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <receiver
+            android:name=".NetStateListener"
+            android:enabled="true">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name=".ColorPickerActivity"
+            android:label="Pick a Blue Color" />
+        <activity
+            android:name=".SetReminderActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+        <activity
+            android:name=".ARProgrammaticallyActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ARFromCraftARActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".RecognitionOnlyActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".OnDeviceARActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".LaunchersActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".HowToActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".WebActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".BrowseImageActivity" />
+        <activity android:name=".ProducerConsumerActivity" />
+        <activity android:name=".SellerActivity" />
+        <activity android:name=".WelcomeSellerActivity" />
+        <activity android:name=".ItemDisplayActivity" />
+        <activity
+            android:name="com.paytm.pgsdk.PaytmPGActivity"
+            android:configChanges="keyboardHidden|orientation|keyboard"
+            android:screenOrientation="portrait" />
+        <activity android:name=".MoneyTransferActivity" />
+        <activity android:name=".AnalyticsApi"></activity>
+
+        <activity android:name=".AddWithVoiceRecognition"></activity>
+    </application>
+
+</manifest>

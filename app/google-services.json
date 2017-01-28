@@ -1,0 +1,38 @@
+{
+  "project_info": {
+    "project_number": "720708334106",
+    "project_id": "firebase-hackpaytm"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:720708334106:android:0cd9421da7a1eb86",
+        "android_client_info": {
+          "package_name": "com.doomers.hackpaytm"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzBXA-aT7uzSatPCHldfAqoXTGBKzV8dw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 2,
+          "analytics_property": {
+            "tracking_id": "UA-85070038-1"
+          }
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

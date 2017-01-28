@@ -1,0 +1,83 @@
+<resources>
+    <string name="app_name">HackPaytm</string>
+    <string name="title_activity_home">HomeActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="speech_prompt">Say something&#8230;</string>
+    <string name="speech_not_supported">Sorry! Your device doesn\'t support speech input</string>
+    <string name="tap_on_mic">Tap on mic to speak</string>
+    <string name="title_activity_main">AugeBricks</string>
+
+    <string name="launchers_howto">How to use the examples</string>
+    <string name="launchers_ar_programmatically">AR programmatically</string>
+    <string name="launchers_ar_from_craftar">AR from CraftAR</string>
+    <string name="launchers_reco_only">Recognition only</string>
+    <string name="launchers_on_device_ar">On-device AR</string>
+    <string name="launchers_signup">Sign Up</string>
+    <string name="launchers_about">About</string>
+    <string name="launchers_no_account">No account yet?</string>
+
+    <!-- HOWTO PAGES -->
+
+    <!-- MAIN -->
+    <string name="howto_title">How to use the examples</string>
+    <string name="howto_1">1. Press the start button.</string>
+    <string name="howto_2">2. The app starts scanning (except example 3).</string>
+    <string name="howto_3">3. Point to the reference image of the example.</string>
+    <string name="howto_4">4. Wait for the AR experience to start.</string>
+    <string name="howto_refs_title">Reference images</string>
+    <string name="howto_refs_1">- Reference images can be found in the \'Reference Images\' folder in the root of the project.</string>
+    <string name="howto_refs_2">- Print the reference images for a better experience.</string>
+    <string name="howto_doc_title">SDK documentation</string>
+    <string name="howto_doc_1">Find out more about the Catchoom SDK in the SDK\'s \'Documentation\' folder.</string>
+
+    <!-- COMMON -->
+    <string name="howto_common_ref_image">Reference image:</string>
+    <string name="howto_common_workflow">Example workflow:</string>
+    <string name="howto_common_about_scene">How we crafted the scene:</string>
+    <string name="howto_common_about_recognition">How we created the experience:</string>
+
+    <string name="howto_common_workflow_1">1. Scan reference image</string>
+    <string name="howto_common_workflow_2">2. Cloud recognition</string>
+    <string name="howto_common_workflow_3">3. Receive assets</string>
+    <string name="howto_common_about_scene_1">1. Upload the reference image through the
+        <a href="http://catchoom.com/documentation/api/management?utm_source=CraftARExamplesApp&amp;utm_medium=Android&amp;utm_campaign=HelpWithAPI">API</a>
+        or the
+        <a href="http://crs.catchoom.com?utm_source=CraftARExamplesApp&amp;utm_medium=Android&amp;utm_campaign=HelpWithAPI">web panel</a>
+    </string>
+    <string name="howto_common_about_scene_4">4. Publish</string>
+
+    <!-- AR PROGRAMMATICALLY -->
+    <string name="howto_arp_main_title">AR experience created programmatically</string>
+    <string name="howto_arp_workflow_4">4. AR overlay of "Hello world!" image stored locally in the device.</string>
+
+
+    <!-- AR FROM CRAFTAR -->
+    <string name="howto_ar_craftar_title">AR experience loaded from CraftAR service</string>
+    <string name="howto_ar_craftar_workflow_4">4. AR overlay of scene received from the cloud (crafted previously)</string>
+    <string name="howto_ar_craftar_about_scene_2">2. Select the AR (Augmented reality) item type</string>
+    <string name="howto_ar_craftar_about_scene_3">3. Set the scene content</string>
+
+    <!-- ON DEVICE AR -->
+    <string name="howto_on_device_title">On-device AR experience</string>
+    <string name="howto_on_device_workflow_2">2. AR overlay of scene loaded from a bundle in the device </string>
+    <string name="howto_on_device_about_scene_5">5. Regenerate the bundle</string>
+    <string name="howto_on_device_about_scene_6">6. Download the collection bundle and save it to raw/arbundle.zip </string>
+
+
+    <!-- RECOGNITION ONLY -->
+    <string name="howto_reco_title">Recognition only experience loaded from CraftAR service</string>
+    <string name="howto_reco_workflow_3">3. Receive response and redirect to the item\'s content.</string>
+    <string name="howto_reco_about_scene_2">2. Select the IR (Recognition only) item type</string>
+    <string name="howto_reco_about_scene_3">3. Set the item\'s URL</string>
+
+
+    <!-- EXAMPLE ACTIVITIES STRINGS -->
+    <string name="finder_searching">Scanning...</string>
+    <string name="recognition_only_tap">Tap to scan</string>
+    <string name="recognition_only_toast_picture_error">Error trying to snap a photo.</string>
+    <string name="recognition_only_toast_nothing_found">Nothing found. Point at the reference image.</string>
+</resources>

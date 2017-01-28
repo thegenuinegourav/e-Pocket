@@ -1,0 +1,346 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    tools:context=".ARProgrammaticallyActivity" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp" >
+
+        <TextView
+            android:id="@+id/howto_link"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/launchers_howto"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/red_catchoom" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_below="@id/howto_link"
+            android:layout_centerInParent="true"
+            android:background="@color/separator" >
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp" >
+
+        <LinearLayout
+            android:id="@+id/launchers_box1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp" >
+
+            <RelativeLayout
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_weight="1" >
+
+                <ImageView
+                    android:id="@+id/ImageView04"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/launcher_ar_programmatically" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/TextView04"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1"
+                android:text="@string/launchers_ar_programmatically"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/red_catchoom"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1" >
+            
+            <LinearLayout
+                	android:id="@+id/howto_link_ar_programmatically"
+					android:layout_width="35dp"
+                    android:layout_height="35dp">
+            
+            	<ImageView
+            	    android:layout_width="wrap_content"
+            	    android:layout_height="wrap_content"
+            	    android:layout_margin="5dp"
+            	    android:layout_weight="1"
+            	    android:src="@drawable/launchers_about" />
+            </LinearLayout>
+            
+            <LinearLayout
+					android:id="@+id/play_ar_programmatically"
+					android:layout_width="35dp"
+                    android:layout_height="35dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/launchers_play" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_below="@id/launchers_box1"
+            android:background="@color/separator" >
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp" >
+
+        <LinearLayout
+            android:id="@+id/launchers_box2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp" >
+
+            <RelativeLayout
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_weight="1" >
+
+                <ImageView
+                    android:id="@+id/ImageView01"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/launcher_ar_from_craftar" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/TextView03"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1"
+                android:text="@string/launchers_ar_from_craftar"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/red_catchoom"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1" >
+            
+            <LinearLayout 
+                android:id="@+id/howto_link_ar_from_craftar"
+                android:layout_width="35dp"
+                android:layout_height="35dp">
+
+            	<ImageView
+                	android:layout_width="wrap_content"
+                	android:layout_height="wrap_content"
+                	android:layout_margin="5dp"
+           	   		android:layout_weight="1"
+           	    	android:src="@drawable/launchers_about" />
+			</LinearLayout>
+            <LinearLayout 
+                android:id="@+id/play_ar_from_craftar"
+                android:layout_width="35dp"
+                android:layout_height="35dp">
+  	       		<ImageView
+    	            android:layout_width="wrap_content"
+        	        android:layout_height="wrap_content"
+            	    android:layout_margin="5dp"
+                	android:layout_weight="1"
+               		android:src="@drawable/launchers_play" />
+			</LinearLayout>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_below="@id/launchers_box2"
+            android:background="@color/separator" >
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp" >
+
+        <LinearLayout
+            android:id="@+id/launchers_box3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp" >
+
+            <RelativeLayout
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_weight="1" >
+
+                <ImageView
+                    android:id="@+id/imageView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/reco_only" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/TextView02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:text="@string/launchers_reco_only"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/red_catchoom"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1" >
+
+   			<LinearLayout 
+   			    android:id="@+id/howto_link_recognition_only"
+                android:layout_width="35dp"
+                android:layout_height="35dp">
+	            
+	            <ImageView
+   		            android:layout_width="wrap_content"
+        	        android:layout_height="wrap_content"
+                	android:layout_margin="5dp"
+                	android:layout_weight="1"
+                	android:src="@drawable/launchers_about" />
+			</LinearLayout>
+
+   			<LinearLayout 
+   			    android:id="@+id/play_recognition_only"
+                android:layout_width="35dp"
+                android:layout_height="35dp">    
+   			
+   				<ImageView
+                	android:layout_width="wrap_content"
+                	android:layout_height="wrap_content"
+                	android:layout_margin="5dp"
+                	android:layout_weight="1"
+                	android:src="@drawable/launchers_play" />
+   			</LinearLayout>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_below="@id/launchers_box3"
+            android:background="@color/separator" >
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_logos"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:gravity="bottom|center_horizontal"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/layout_catchoom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/text_about"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginLeft="15dp"
+                android:text="@string/launchers_about"
+                android:textColor="@color/red_catchoom" />
+
+            <ImageButton
+                android:id="@+id/imageButton_logo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:background="@android:color/transparent"
+                android:onClick="goToCatchoom"
+                android:scaleType="centerInside"
+                android:src="@drawable/craftar_logo" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_signUp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="20dp"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+                android:text="@string/launchers_no_account"
+                android:textColor="@color/separator"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/button_signUp"
+                android:layout_width="160dp"
+                android:layout_height="35dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@android:color/transparent"
+                android:onClick="goToCatchoom"
+                android:text="@string/launchers_signup"
+                android:textColor="@color/red_catchoom"
+                android:textColorHint="@android:color/transparent"
+                android:textSize="25sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,40 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <com.jjoe64.graphview.helper.GraphViewXML
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        app:seriesType="points"
+        app:seriesData="0=500;2=2500;3=200;4=230;5=20;6=5000;7=343"
+        android:title="Daily Expenditure"/>
+
+        <com.jjoe64.graphview.helper.GraphViewXML
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            app:seriesType="line"
+            app:seriesData="0=240;2=2300;3=100;4=230;5=20;6=5000;7=343;"
+            android:title="Daily CashBacks"/>
+
+
+    <com.jjoe64.graphview.helper.GraphViewXML
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        app:seriesData="0=2000;1=2400;2=1290;3=2300;4=5000;"
+        android:title="Last 3 Months Analysis"
+        app:seriesType="bar"
+         />
+
+    </LinearLayout>
+</ScrollView>
