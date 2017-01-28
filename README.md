@@ -1,5 +1,5 @@
 # Hack-Paytm
-Six Modules in one app for improving current paytm experience :  
+Six Modules in one app for healing the pain of Demonetization :    
 1.) e-commerce :credit_card: with Augmented Reality  
 2.) Data Analytics :bar_chart:    
 3.) Offline Transfer Money Mode  :moneybag:  
