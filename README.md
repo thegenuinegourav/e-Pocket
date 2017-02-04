@@ -1,4 +1,4 @@
-# Hack-Paytm
+# e-Pocket
 Six Modules in one app for healing the pain of Demonetization :    
 1.) e-commerce :credit_card: with Augmented Reality  
 2.) Data Analytics :bar_chart:    
